@@ -1,0 +1,19 @@
+.day-layout {
+    border: 1px solid;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.max-temp {
+    font-size: medium;
+}
+
+.min-temp {
+    font-size: small;
+}
+
+.day-layout > * {
+    margin: auto
+}

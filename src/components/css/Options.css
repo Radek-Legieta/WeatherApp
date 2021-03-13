@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(100, 95, 95);
+  height: 25px;
+}
+
+
+body {
+  margin: 0;
+}
+
+li>ul {
+  background-color:rgb(100, 95, 95);
+  color: #fff;
+  display: none;
+  position: absolute;
+}
+
+li>ul>li{
+  border-style:solid;
+   border-left: none;
+  border-bottom: none;
+  border-right: none;
+  
+}
+
+li>ul>li:hover {
+  background-color:rgb(155, 146, 146);
+}
+
+li:hover>ul {
+  display: block;
+}
+
+.main-menu li {
+  min-width: 120px;
+}
+
+ul li {
+  margin: auto ;
+}
+
+
+.main-menu li p {
+  margin: 0;
+  display: inline;
+}
+
+
